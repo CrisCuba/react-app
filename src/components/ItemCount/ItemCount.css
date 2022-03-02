@@ -1,0 +1,34 @@
+.counter {
+  width: 25rem;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ccda50;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.counter-quantity {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: rgba(47, 72, 100, 0.479);
+  border-style: hidden;
+  border-color:#8ee2c6;
+}
+
+.counter-container {
+  width: 43rem;
+  height: 4rem;
+  display: flex;
+}
+
+.counter-buttons  {
+  font-size: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  border-style:hidden;
+  border-radius: 0.5rem;
+  background-color: #dee2a4;
+  cursor: pointer;
+}

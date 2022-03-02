@@ -1,0 +1,12 @@
+
+.landingContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.landingContainer img {
+    width: 100%;
+    overflow-x: hidden;
+}

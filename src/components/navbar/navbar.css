@@ -1,0 +1,59 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  background-color: white;
+  width: 100%;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  width: 40rem;
+  justify-content: space-between;
+}
+
+.nav-link {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 4rem;
+}
+
+.bar :hover {
+  background-color: crimson;
+  border-radius: 7px;
+  color: white;
+}
+.nav-link-active {
+  background-color: rgba(220, 20, 60, 0.534);
+  border-radius: 4px;
+  font-weight: bolder;
+}
+
+
+.inicio{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: black;
+  padding-inline: 2rem;
+}
+.logo{
+  width: 7rem;
+}
+
+.cart-widget {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .bar {
+    width: 50vh;
+  }
+}

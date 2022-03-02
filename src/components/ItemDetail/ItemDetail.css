@@ -1,0 +1,99 @@
+.container-detail {
+  margin-top: 4rem;
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.img-detail {
+  width: 25rem;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.title-detail {
+  margin-bottom: 1.5rem;
+  font-size: 4rem;
+  font-weight: 70;
+  font-family: "Open Sans", sans-serif;
+}
+
+.price-detail {
+  font-size: 5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+
+.div {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+.info-container {
+  width: 45rem;
+}
+.description-detail {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.cart-button {
+  padding: 0.9rem;
+  width: 25rem;
+  border-style: hidden;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(111, 171, 226, 0.8);
+  margin-top: 1.5rem;
+  transition: 0.5s;
+}
+
+.cart-button:hover {
+  background-color: rgba(30, 108, 180, 0.8);
+}
+
+.finish-button {
+  padding: 0.9rem;
+  width: 25rem;
+  border-style: hidden;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  background-color: black;
+  margin-top: 1.5rem;
+  transition: 0.7s;
+}
+
+.finish-button:hover {
+  background-color: grey;
+  color: white;
+  font-weight:bolder;
+}
+
+.back-button {
+  padding: 0.9rem;
+  width: 25rem;
+  border-style: hidden;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  background-color:rgba(14, 175, 140, 0.8);
+  margin-top: 1.5rem;
+  transition: 0.7s;
+}
+
+.back-button:hover {
+  background-color: rgb(146, 247, 200);
+  color: rgb(3, 97, 45);
+  font-weight: bolder;
+}
+
+.finish-buy-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
